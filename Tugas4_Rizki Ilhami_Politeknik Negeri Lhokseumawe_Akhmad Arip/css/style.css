@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Prism', cursive;
+}
+
+/* css header */
+.header {
+    background-color: darkred;
+    height: 110px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+div img {
+    width: 140px;
+    margin: -10px 30px 0 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20pt;
+    padding: 20px;
+}
+
+#menu a:hover {
+    color: rgb(219, 189, 150);
+}
+
+/* css sidebar */
+h1 {
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15pt;
+    background-color: darkred;
+    border-radius: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 9pt;
+    margin: 12px;
+}
+/* css beranda */
+
+div img {
+    width: 60%;
+    float: right;
+}
+
+h2 {
+    color:brown;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* css footer */
+h3 {
+    margin-top: 10px;
+    color:antiquewhite;
+    text-align: center;
+}

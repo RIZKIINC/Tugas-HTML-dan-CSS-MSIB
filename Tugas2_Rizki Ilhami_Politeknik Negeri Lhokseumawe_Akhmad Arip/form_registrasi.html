@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi Produk</title>
+</head>
+<body bgcolor="aliceblue">
+
+    <table align="center" cellpadding="20">
+        <tr>
+            <td>
+                <form>
+                    <table align="center" cellpadding="15">
+                        <tr>
+                            <td colspan="2" align="center" bgcolor="cornflowerblue">Form Registrasi Produk</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Nama Produk
+                            </td>
+                            <td>
+                                <input type="text" name="nama_produk" id="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Jenis Produk
+                            </td>
+                            <td>
+                                <select name="pendidikan">
+                                    <option value="">--Kategori Produk--</option>
+                                    <option value="Minuman">Minuman</option>
+                                    <option value="Makanan">Makanan</option>
+                                    <option value="Diodoran">Diodoran</option>
+                                    <option value="Shampo">Shampo</option>
+                                    <option value="Parfum">Parfum</option>
+                                </select>
+                            </td>
+                            <tr>
+                                <td>
+                                    Harga
+                                </td>
+                                <td>
+                                    <input type="number" name="harga" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Stock
+                                </td>
+                                <td>
+                                    <input type="text" name="Stock" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Photo
+                                </td>
+                                <td>
+                                    <input type="text" name="Photo" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="cornflowerblue" colspan="2" align="center">
+                                    <input type="submit" name="kirim" value="Kirim"> &nbsp; &nbsp;
+                                    <input type="submit" name="batal" value="Batal">
+                                </td>
+                            </tr>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+            <td>
+                <form>
+                    <table align="center" cellpadding="15">
+                        <tr>
+                            <td align="center" colspan="2" bgcolor="cornflowerblue">
+                                Form Registrasi Member
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Username
+                            </td>
+                            <td>
+                                <input type="text" name="username" placeholder="Masukkan Nama">
+                            </td>
+                            <tr>
+                                <td>
+                                    Password
+                                </td>
+                                <td>
+                                    <input type="password" name="password" placeholder="Masukkan Password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" bgcolor="cornflowerblue" colspan="2">
+                                    <input type="submit" name="masuk" value="Masuk"> &nbsp; &nbsp;
+                                    <input type="submit" name="batal" value="Batal">
+                                </td>
+                            </tr>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
